@@ -1,0 +1,5 @@
+Numpy
+sk-image
+scipy
+PyQt4
+matplotlib
