@@ -297,7 +297,7 @@ class Ui_MainWindow(object):
         self.setFunc()
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "P.I.C.E.", None))
-        MainWindow.setWindowIcon(QtGui.QIcon("/Resources/Icon.jpg"))
+        MainWindow.setWindowIcon(QtGui.QIcon("Icon.jpg"))
         self.filter.setWindowTitle("Filters")
         self.filter.setWindowIcon(QtGui.QIcon("Icon.jpg"))
         self.transform.setWindowTitle("Transformss")
