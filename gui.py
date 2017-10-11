@@ -295,6 +295,8 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         self.setFunc()
+        self.fileOpen()
+        
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "P.I.C.E.", None))
         MainWindow.setWindowIcon(QtGui.QIcon("Icon.jpg"))
@@ -314,7 +316,7 @@ class Ui_MainWindow(object):
         self.radioButton_1.setText(_translate("MainWindow", " Mars Mode", None))
         self.radioButton_2.setText(_translate("MainWindow", "Night Vision", None))
         self.radioButton_3.setText(_translate("MainWindow", "Night mode", None))
-        self.radioButton_4.setText(_translate("MainWindow", "Aquamarin Mode", None))
+        self.radioButton_4.setText(_translate("MainWindow", "Aquamarine Mode", None))
         self.radioButton_5.setText(_translate("MainWindow", "Magenta mode", None))
         self.radioButton_6.setText(_translate("MainWindow", "Pale mode", None))
         self.radioButton_7.setText(_translate("MainWindow", "Black and white", None))

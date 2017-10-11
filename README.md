@@ -1,8 +1,9 @@
-This is a picture editor created in python
+#P.I.C.E
+This is an image editor created using Python and designed in Qt
+To run execute gui.py in python.
 
-Execute gui.py in python.
-
-Requirements:
-  numpy
-  pyqt4
-  scikit-image
+#Requirements:
+	Python 3.x
+	numpy
+	pyqt4
+	scikit-image
